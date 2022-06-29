@@ -88,7 +88,7 @@ const Navbar = () => {
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
             <ul>
                 <li className='w-[160px] h-[60px] flex justify-center items-center ml-[-100px] hover:ml-[0px] duration-300 bg-blue-600'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href="/">LinkedIn <FaLinkedin size={30} /></a>
+                    <a className='flex justify-between items-center w-full text-gray-300' href="https://www.linkedin.com/in/fransahw/">LinkedIn <FaLinkedin size={30} /></a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-center items-center ml-[-100px] hover:ml-[0px] duration-300 bg-gray-800'>
                     <a className='flex justify-between items-center w-full text-gray-300' href="https://github.com/fransachmadhw">GitHub <FaGithub size={30} /></a>
