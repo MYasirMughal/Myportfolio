@@ -3,7 +3,7 @@ import WorkImg from '../assets/workImg.jpeg'
 import realEstate from '../assets/realestate.jpg'
 
 const Work = () => {
-    function gridItem(a, b, c) {
+    function gridItem(a, b, c, d) {
         return (
             <div
                 style={{backgroundImage: `url(${a})`}}
@@ -11,15 +11,15 @@ const Work = () => {
             >
 
                 {/* Hover Effect */}
-                <div className='opacity-0 group-hover:opacity-100'>
-                    <span className='text-2xl font-bold text-white tracking-wider'>
-                        React JS Application
+                <div className='opacity-0 group-hover:opacity-100 flex flex-col items-center justify-center gap-3'>
+                    <span className='text-2xl font-bold text-white text-center tracking-wider'>
+                        {b}
                     </span>
-                    <div className='pt-8 text-center '>
-                        <a href={b ? b : '/'}>
+                    <div className='text-center'>
+                        <a href={c ? c : '/'}>
                             <button className='w-20 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                         </a>
-                        <a href={c ? c : '/'}>
+                        <a href={d ? d : '/'}>
                             <button className='w-20 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                         </a>
                     </div>
@@ -41,35 +41,24 @@ const Work = () => {
 
                 {/* Grid */}
                 {gridItem(
-                    WorkImg,
-                    "https://github.com/fireclint/portfolio-app-react/blob/main/src/components/Skills.jsx",
-                    "https://github.com/fireclint/portfolio-app-react/blob/main/src/components/Skills.jsx"
+                    "https://repository-images.githubusercontent.com/452623686/9ea14ce5-e13f-43f6-860c-96fdd0df6de2",
+                    "Blogshot",
+                    "https://blogshot.vercel.app",
+                    "https://github.com/fransachmadhw/Blogshot"
                 )}
                 {gridItem(
-                    realEstate,
-                    "https://github.com/fireclint/portfolio-app-react/blob/main/src/components/Skills.jsx",
-                    "https://github.com/fireclint/portfolio-app-react/blob/main/src/components/Skills.jsx"
+                    "https://repository-images.githubusercontent.com/501931143/ed1599a9-2297-40a5-811f-dddf47c24e22",
+                    "Trivia React",
+                    "https://triviaaa.vercel.app",
+                    "https://github.com/fransachmadhw/Trivia-React"
                 )}
                 {gridItem(
-                    WorkImg,
-                    "https://github.com/fireclint/portfolio-app-react/blob/main/src/components/Skills.jsx",
-                    "https://github.com/fireclint/portfolio-app-react/blob/main/src/components/Skills.jsx"
+                    "https://repository-images.githubusercontent.com/431815358/fac7e016-1285-4399-afc9-d1f252b28dca",
+                    "DreadOut 2 Unofficial Website Remake",
+                    "https://dreadout2unofficial.netlify.app/",
+                    "https://github.com/fransachmadhw/DreadOut2_Website"
                 )}
-                {gridItem(
-                    realEstate,
-                    "https://github.com/fireclint/portfolio-app-react/blob/main/src/components/Skills.jsx",
-                    "https://github.com/fireclint/portfolio-app-react/blob/main/src/components/Skills.jsx"
-                )}
-                {gridItem(
-                    WorkImg,
-                    "https://github.com/fireclint/portfolio-app-react/blob/main/src/components/Skills.jsx",
-                    "https://github.com/fireclint/portfolio-app-react/blob/main/src/components/Skills.jsx"
-                )}
-                {gridItem(
-                    realEstate,
-                    "https://github.com/fireclint/portfolio-app-react/blob/main/src/components/Skills.jsx",
-                    "https://github.com/fireclint/portfolio-app-react/blob/main/src/components/Skills.jsx"
-                )}
+
 
             </div>
         </div>
