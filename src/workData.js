@@ -20,7 +20,7 @@ let data = [
     {
         name: "React Portfolio 1",
         img: "https://repository-images.githubusercontent.com/505251852/e35f6a78-a7a5-4277-836c-143b7b003111",
-        live: "https://blogshot.vercel.app",
+        live: "https://frans-portfolio-1.vercel.app/",
         code: "https://github.com/fransachmadhw/react-portfolio-1"
     },
 ]
