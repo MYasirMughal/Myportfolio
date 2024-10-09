@@ -13,10 +13,11 @@ const About = () => {
             </div>
             <div className='max-w-[1000px] w-full grid grid-cols-1 sm:grid-cols-2 gap-8'>
                 <div className='md:text-right'>
-                    <p className='text-4xl font-bold'>Hi. I'm Frans, nice to meet you. Please take a look around</p>
+                    <p className='text-4xl font-bold'>Hi. I'm Muhammad Yasir, nice to meet you. Please take a look around</p>
                 </div>
                 <div className='pb-8 text-justify'>
-                    <p className=''>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis ratione porro hic consectetur dolores molestias molestiae, delectus culpa qui! Maiores labore iste aliquid veniam modi molestias cum, nesciunt qui quas autem adipisci, debitis soluta quae itaque asperiores? Distinctio non soluta nihil saepe consequatur quo, nemo veniam error officiis in harum?</p>
+                    <p className=''>A passionate and detail-oriented front-end developer with a strong background in creating visually appealing and responsive user interfaces. Proficient in HTML, CSS, and JavaScript, with experience using modern front-end frameworks like React, Vue.js, or Angular. Skilled at transforming designs into functional web applications that provide a seamless user experience across devices. Strong understanding of UX/UI principles, version control (Git), and cross-browser compatibility. Continuously learning and keeping up with industry trends to deliver optimized, high-performance web solutions. Collaborative team player with excellent problem-solving abilities.
+</p>
                 </div>
             </div>
         </div>
