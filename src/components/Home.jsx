@@ -13,9 +13,7 @@ const Home = () => {
             <h2 className='text-3xl sm:text-6xl font-bold text-gray-400'>I'm Front End Developer.</h2>
             <p className='text-gray-400 py-4 max-w-[700px]'>A passionate and detail-oriented front-end developer with a strong background in creating visually appealing and responsive user interfaces. Proficient in HTML, CSS, and JavaScript, with experience using modern front-end frameworks like React, Vue.js, or Angular. Skilled at transforming designs into functional web applications that provide a seamless user experience across devices. Strong understanding of UX/UI principles, version control (Git), and cross-browser compatibility. Continuously learning and keeping up with industry trends to deliver optimized, high-performance web solutions. Collaborative team player with excellent problem-solving abilities.
 </p>
-            <div>
-                <Link to="/work" className='w-[175px] text-white border-2 px-6 py-3 my-2 flex justify-center items-center gap-2 hover:bg-pink-600 hover:border-pink-600 duration-200 hover:gap-5'>View Work <HiArrowNarrowRight /></Link>
-            </div>
+           
         </div>
 
     </div>
